@@ -6,6 +6,11 @@ simpler `yarn init`
 usage
 -----
 
+`yarn xinit`
+
+install
+-------
+
 run `./kinda-install.sh`
 
 add
