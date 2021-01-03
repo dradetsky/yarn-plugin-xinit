@@ -20,6 +20,8 @@ const xinit = {
 
     class XinitCommand extends Command {
       async execute() {
+        // NOTE: this looks complicated, but it's basically a bunch of copypasta
+        // from plugin-init/sources/commands/init.ts
         if (xfs.existsSync(ppath.join(this.context.cwd, Manifest.fileName)))
           throw new UsageError(`A package.json already exists in the specified directory`)
 
